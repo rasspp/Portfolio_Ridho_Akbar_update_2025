@@ -27,12 +27,6 @@ export default function Projects() {
   return (
     <section id="projects" className="bg-gray-100 dark:bg-gray-900 px-6 py-20">
       <div className="mx-auto max-w-6xl">
-        {/* Judul */}
-        <h2 className="mb-12 text-center text-4xl font-extrabold text-gray-900 dark:text-white">
-          Proyek Saya
-          <span className="block mt-2 h-1 w-16 bg-blue-500 mx-auto"></span>
-        </h2>
-
         {/* Grid Projects */}
         <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3">
           {projects.map((project) => (
